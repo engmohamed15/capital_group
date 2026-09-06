@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background -->
+  <circle cx="100" cy="100" r="98" fill="#1F2A24" stroke="#9C7A3C" stroke-width="1.5"/>
+
+  <!-- Globe outer circle -->
+  <circle cx="100" cy="100" r="72" fill="none" stroke="#9C7A3C" stroke-width="1.8"/>
+
+  <!-- Equator ellipse -->
+  <ellipse cx="100" cy="100" rx="72" ry="28" fill="none" stroke="#9C7A3C" stroke-width="1.2"/>
+
+  <!-- Vertical ellipse (longitude) -->
+  <ellipse cx="100" cy="100" rx="28" ry="72" fill="none" stroke="#9C7A3C" stroke-width="1.2"/>
+
+  <!-- Latitude lines -->
+  <ellipse cx="100" cy="78" rx="64" ry="18" fill="none" stroke="#9C7A3C" stroke-width="0.7" opacity="0.5"/>
+  <ellipse cx="100" cy="122" rx="64" ry="18" fill="none" stroke="#9C7A3C" stroke-width="0.7" opacity="0.5"/>
+
+  <!-- Upward arrow -->
+  <line x1="100" y1="38" x2="100" y2="16" stroke="#9C7A3C" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="100,8 93,22 107,22" fill="#9C7A3C"/>
+
+  <!-- Center dot -->
+  <circle cx="100" cy="100" r="5" fill="#9C7A3C"/>
+
+  <!-- Orbital ring accent (tilted) -->
+  <ellipse cx="100" cy="100" rx="88" ry="20" fill="none" stroke="#9C7A3C" stroke-width="0.8" opacity="0.3" transform="rotate(-25, 100, 100)"/>
+</svg>
